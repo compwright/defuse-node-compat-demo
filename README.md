@@ -1,6 +1,6 @@
 # Cross-Platform Encryption Compatibility Demo
 
-This project demonstrates cross-platform compatibility between defuse/php-encryption and compwright/defuse-node.
+This project demonstrates cross-platform compatibility between [defuse/php-encryption](https://github.com/defuse/php-encryption) and [compwright/defuse-node](https://github.com/compwright/defuse-node).
 
 ## Requirements
 
