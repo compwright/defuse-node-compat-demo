@@ -1,0 +1,26 @@
+{
+    "name": "compwright/defuse-node-compat-demo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathon Hill",
+            "email": "jonathon@compwright.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DefuseCompatDemo\\PHP\\": "src/php/"
+        }
+    },
+    "bin": [
+        "bin/php/encrypt.php",
+        "bin/php/decrypt.php"
+    ],
+    "require": {
+        "defuse/php-encryption": "*"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "*"
+    }
+}
